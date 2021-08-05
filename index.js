@@ -4,3 +4,4 @@ app.use(express.static("."));
 app.listen(process.env.PORT || "8080", () => {
     console.log("asdf");
 });
+console.log("h");
