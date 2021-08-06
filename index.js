@@ -2,6 +2,6 @@ const express = require("express");
 const app = express();
 app.use(express.static("."));
 app.listen(process.env.PORT || "8080", () => {
-    console.log("asdf");
+    console.log("Done");
 });
-console.log("h");
+console.log("Starting Server...");
